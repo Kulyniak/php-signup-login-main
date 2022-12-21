@@ -58,7 +58,7 @@ include("database.php");
         </div><br>
         <div>
             <label >Country:</label>
-            <select name="Country" class="country form">
+            <select name="country_id" class="country form">
             <option selected  ="selected"></option>
             <?php
                 $sql = mysqli_query($mysqli, "SELECT * FROM countries");
@@ -78,7 +78,7 @@ include("database.php");
             <input type="checkbox" id="agreement" name="agreement">
         </div><br>
         
-        <button>Sign up</button>
+        <button type = "submit" >Sign up</button>
     </form>
     
 </body>
