@@ -7,8 +7,6 @@ include("database.php");
     <title>Signup</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
-    <script src="https://unpkg.com/just-validate@latest/dist/just-validate.production.min.js" defer></script>
-    <script src="/js/validation.js" defer></script>
     <script>
         $(document).ready(function(){
             $(".countries").change(function(){

@@ -7,7 +7,7 @@
 </head>
 <body>
     
-    <h1>Signup success</h1>
+    <h1>Signup</h1>
     <p>Signup succesfull.
     You can now <a href = "login.php">log in </a></p>
 
