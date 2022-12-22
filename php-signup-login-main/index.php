@@ -19,7 +19,7 @@ if (isset($_SESSION["user_id"])){
 <body>
     <h1>Home</h1>
     <?php if (isset($user)): ?>
-        <p>Hello, <?= htmlspecialchars($user["real_name"]) ?></p>
+        <p>Hello, <?= htmlspecialchars($user["real_name"])." " .($user["email"]) ?></p>
         <p><a href="logout.php">Log out</a></p>
         <?php else: ?>
             <p><a href="login.php">Log in</a> or <a href="signup.php">Sign up</a></p>
